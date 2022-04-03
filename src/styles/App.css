@@ -1,0 +1,368 @@
+.rentCompbutton{
+ background-color: #111827;
+ border: 1px solid transparent;
+ border-radius: .75rem;
+ box-sizing: border-box;
+ color: #FFFFFF;
+ cursor: pointer;
+ flex: 0 0 auto;
+ font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+ font-size: 1.125rem;
+ font-weight: 600;
+ line-height: 1.5rem;
+ padding: .75rem 1.2rem;
+ text-align: center;
+ text-decoration: none #6B7280 solid;
+ text-decoration-thickness: auto;
+ transition-duration: .2s;
+ transition-property: background-color,border-color,color,fill,stroke;
+ transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ width: auto;
+}
+
+.edit-button2 {
+    margin:4px;
+    padding-top: 10px
+}
+
+.styled-button:hover {
+ border: 1px solid white;
+
+}
+
+
+.styled-button:active {
+  box-shadow: 1px 1px 2px #c5c5c5,
+             -1px -1px 12px #ffffff;
+}
+
+.App {
+  height: 100vh;
+ background-color: rgb(29 78 216);
+  text-align: center;
+  color: white;
+}
+
+p {
+  margin:0;
+}
+
+.container {
+  height: 50%;
+  background-color: rgb(29 78 216);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-container {
+  padding-top: 10px
+  padding-botton: 4px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px 50px 10px;
+}
+
+.title {
+  margin: 50;
+  font-size: 38px;
+  font-weight: bold;
+  color: white;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.subtitle {
+  font-size: 30px;
+  color: white;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+}
+
+.center{
+  text-align: center;
+  margin-left: 36%;
+}
+
+.logo{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.right{
+  display: flex;
+  background: black;
+  border-radius: 16px;
+  padding: 12px 20px;
+  height: 99%;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+.left{
+  display: flex;
+  background: black;
+  border-radius: 16px;
+  padding: 12px 20px;
+  height: 99%;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.content-container {
+  background-color: #a200d6;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.connect-wallet-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 550px;
+}
+
+.connect-wallet-container img {
+  padding-bottom: 20px;
+}
+
+.connect-wallet-button {
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.mint-button {
+  background: -webkit-linear-gradient(left, #c20426, #ff6fdf);
+  font-size: 18px;
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin: 20px 10px;
+  border-radius: 20px;
+  padding: 0px 2rem;
+}
+
+.mint-button:disabled{
+  background: #550072;
+  color: rgb(209, 209, 209);
+  cursor: not-allowed;
+}
+
+.mint-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.edit-button{
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3px;
+  top: 20px;
+  border: 0px;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.edit-icon{
+  width: 40px;
+   background-color: white;
+}
+
+
+.footer-container {
+   background-color: rgb(29 78 216);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.twitter-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.form-container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(29 78 216);
+
+}
+
+input{
+  border: 0;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 26px;
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.styled-button {
+margin: 10px;
+ color: #090909;
+ padding: 0.7em 1.7em;
+ font-size: 18px;
+ border-radius: 0.5em;
+ background: #e8e8e8;
+ border: 1px solid #e8e8e8;
+ transition: all .3s;
+ box-shadow: 1px 1px 2px #c5c5c5,
+             -1px -1px 1px #ffffff;
+}
+input::placeholder {
+  color: gray;
+  letter-spacing: 2px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.first-row{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.tld {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  /* left: -70px; */
+  right: 22px;
+  margin: 0;  
+  padding: 0;
+  margin-bottom: 13px;
+}
+
+.mint-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mint-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px 15px;
+  font-size: 18px;
+  background-color: #c4b7fa;
+  color: black;
+  min-width: 150px;
+  max-width: fit-content;
+  box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 0.2);
+}
+
+/* Different background-colour for every nth mint-item */
+.mint-item:nth-child(2n) {
+  background-color: lightblue;
+}
+
+.mint-item:nth-child(3n) {
+  background-color: lightpink;
+}
+
+.mint-item:nth-child(5n) {
+  background-color: lightgreen;
+}
+
+.link{
+  color: black;
+  text-decoration: none;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+.underlined:hover{
+  cursor: pointer;
+}
+
+/* KeyFrames */
+@-webkit-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
